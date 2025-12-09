@@ -1,0 +1,12 @@
+{
+  "chemical_validity_pct": 100.0,
+  "admet_completeness_pct": 100.0,
+  "property_improvement_pct": 100.0,
+  "synthesis_provided_pct": 100.0,
+  "valid_molecules": 3,
+  "complete_admet_molecules": 3,
+  "molecules_with_improvements": 3,
+  "molecules_with_synthesis": 3,
+  "total_molecules": 3,
+  "evaluation_timestamp": "2025-12-09T03:39:57.629959"
+}

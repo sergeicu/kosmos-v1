@@ -1,0 +1,67 @@
+86d6c8a2-9d7c-42d6-abc7-bd40f2d46474
+Submitted: 2025-12-09T03:41:54.036262
+
+Query:
+You are analyzing an E. coli RNA-seq dataset from a heat shock experiment.
+
+Dataset Summary:
+- Total genes: 500
+- Total samples: 5
+- Sample names: control_1, control_2, heat_1, heat_2, heat_3
+- Control samples: control_1, control_2
+- Heat shock samples: heat_1, heat_2, heat_3
+
+Preview of the data (first 20 genes):
+,control_1,control_2,heat_1,heat_2,heat_3
+dnaK,131,94,906,871,988
+dnaJ,100,103,930,949,1108
+groEL,81,109,1093,1185,991
+groES,139,100,960,1113,821
+htpG,128,138,969,987,1070
+clpB,141,141,974,850,1163
+ibpA,134,143,930,1106,934
+ibpB,100,118,1073,1187,888
+rrsA,459,413,408,489,452
+gyrA,529,483,491,510,587
+recA,598,571,407,574,434
+gene_0,215,90,59,11,63
+gene_1,115,269,200,227,53
+gene_2,171,211,279,280,224
+gene_3,261,199,222,217,246
+gene_4,62,289,226,261,197
+gene_5,50,166,24,74,18
+gene_6,138,145,72,148,90
+gene_7,172,298,270,240,50
+gene_8,37,144,210,277,42
+
+
+The dataset includes expression counts for 500 genes across 5 samples.
+Key observations:
+- Some genes show dramatic upregulation in heat shock conditions
+- Known heat shock genes like dnaK, dnaJ, groEL, groES are included
+
+Please perform the following analysis:
+1. Identify differentially expressed genes between control and heat shock conditions
+2. Perform pathway enrichment analysis
+3. Generate 2-3 testable hypotheses about the heat shock response mechanism
+4. Create publication-quality visualizations (heatmap, volcano plot, pathway diagram)
+
+Instructions:
+- Use appropriate statistical tests (e.g., DESeq2, edgeR methodology)
+- Apply multiple testing correction (e.g., Benjamini-Hochberg FDR)
+- Consider genes with |log2FC| > 1 and adjusted p-value < 0.05 as significant
+- Focus on chaperone proteins, proteases, and transcription factors
+- Generate clear, testable hypotheses based on the differential expression patterns
+
+Please create a comprehensive Jupyter notebook with:
+- Data loading and preprocessing
+- Differential expression analysis
+- Pathway enrichment
+- Visualization generation
+- Hypothesis formulation
+
+Export the results including:
+- List of significant DEGs with fold changes and p-values
+- Enriched pathways with enrichment scores
+- Generated figures
+- Testable hypotheses with rationale

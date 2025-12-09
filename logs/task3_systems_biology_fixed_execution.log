@@ -1,0 +1,10 @@
+2025-12-09T03:41:53.245627 [INFO] Generating inline RNA-seq data
+2025-12-09T03:41:53.289155 [INFO] Submitting Kosmos ANALYSIS job (without file uploads)
+2025-12-09T03:41:54.034993 [INFO] Task submitted successfully: 86d6c8a2-9d7c-42d6-abc7-bd40f2d46474
+2025-12-09T03:41:54.036523 [INFO] ✓ Kosmos job submitted successfully
+2025-12-09T03:41:54.036976 [INFO] Starting task monitoring (this will take ~45 minutes)...
+2025-12-09T03:41:54.037469 [INFO] Monitoring task 86d6c8a2-9d7c-42d6-abc7-bd40f2d46474 (timeout: 60 min)
+2025-12-09T03:41:54.385215 [INFO] Status: queued
+2025-12-09T03:42:25.159594 [INFO] Status: in progress
+2025-12-09T03:42:55.936795 [INFO] Status: in progress
+2025-12-09T03:43:26.820674 [INFO] Status: in progress

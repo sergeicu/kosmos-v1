@@ -21,7 +21,7 @@ except ImportError:
     print("⚠️ RDKit not available - using basic validation only")
 
 # Load ground truth
-with open("../input/task4_ground_truth.json", "r") as f:
+with open("input/task4_ground_truth.json", "r") as f:
     ground_truth = json.load(f)
 
 baseline = ground_truth["nirmatrelvir"]
@@ -224,7 +224,7 @@ def main():
     print(f"\nStart time: {datetime.now()}")
 
     # Load Kosmos results
-    results_file = Path("../output/task4_results/kosmos_raw_output.json")
+    results_file = Path("output/task4_results/kosmos_raw_output.json")
 
     if not results_file.exists():
         print(f"\n❌ Error: Results file not found at {results_file}")
@@ -336,14 +336,14 @@ def main():
     }
 
     # Save metrics
-    metrics_file = Path("../output/task4_results/metrics.json")
+    metrics_file = Path("output/task4_results/metrics.json")
     with open(metrics_file, "w") as f:
         json.dump(metrics, f, indent=2)
 
     print(f"\n✅ Metrics saved to: {metrics_file}")
 
     # Save parsed molecules
-    molecules_file = Path("../output/task4_results/parsed_molecules.json")
+    molecules_file = Path("output/task4_results/parsed_molecules.json")
     with open(molecules_file, "w") as f:
         json.dump(molecules, f, indent=2)
 

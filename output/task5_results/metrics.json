@@ -1,0 +1,53 @@
+{
+  "evaluation_timestamp": "2025-12-09T03:40:41.088801",
+  "task_id": "0ee36475-e575-4d67-9e14-dbdfd97103dd",
+  "mechanism_recall": {
+    "value": 0.25,
+    "percentage": 25.0,
+    "matched_mechanisms": [
+      "LPS-induced neuroinflammation"
+    ],
+    "total_ground_truth": 4,
+    "identified_count": 3,
+    "all_identified": [
+      "ENS initiation and gut\u2011to\u2011brain propagation via autonomic circuits. Experimental systems demonstrate that \u03b1\u2011syn pathology in the gut wall can spread to nodose ganglia and dorsal motor nucleus (DMV) and that vagotomy blocks this transfer, indicating a vagus\u2011mediated route; mucosal enteroendocrine cells (EECs) can transfer \u03b1\u2011syn to vagal neurons, providing a plausible epithelial/mucosal source of seeds (prion\u2011like) that access autonomic fibers (chandra2023gutmucosalcells pages 7-10, kujawska2018whatisthe pages 9-11). Bidirectional propagation along parasympathetic and sympathetic pathways has been mapped in models and fits \u201cbody\u2011first\u201d PD phenotypes; human epidemiology on vagotomy is mixed but includes cohorts with reduced PD risk after complete vagotomy (wang2021theroleof pages 17-18).",
+      "Epithelial barrier dysfunction and LPS/TLR4\u2011driven neuroinflammation. PD cohorts show increased intestinal permeability with elevated serum LPS\u2011binding protein and mucosal E. coli/oxidative stress markers, correlating with enteric \u03b1\u2011syn deposition. In \u03b1\u2011syn mice, LPS reduces tight\u2011junction proteins (ZO\u20111, E\u2011cadherin), increases enteric \u03b1\u2011syn, and curli\u2011producing E. coli accelerate \u03b1\u2011syn accumulation with higher IL\u20116/TNF in microglia, linking dysbiosis to microglial/astrocyte activation via TLR4/NF\u2011\u03baB signaling (dutta2019parkinson\u2019sdiseasethe pages 4-5, wang2021theroleof pages 17-18). Systematic animal data show gut\u2011targeted interventions frequently downregulate TLR4 and NF\u2011\u03baB and normalize barrier proteins (panaitescu2024theeffectof pages 18-19).",
+      "Microbial metabolites acting on EECs, vagal afferents, and glia. Dysbiosis in PD typically features reduced butyrate\u2011producing taxa and lower colonic butyrate. SCFAs regulate epithelial tight junctions and immunometabolism (HDAC/GPCR signaling) and influence microglial states; EECs sense luminal metabolites and interface with vagal afferents, enabling metabolite\u2011to\u2011neuron signaling. P"
+    ]
+  },
+  "intervention_ranking": {
+    "kendall_tau": 1.0,
+    "extracted_interventions": [
+      "Probiotic supplementation",
+      "Fecal microbiota transplant",
+      "Bile acid modulators",
+      "Vagal neuromodulation (taVNS/VNS)."
+    ],
+    "details": "p=1.000",
+    "expected_ranking": [
+      "GLP-1 agonists",
+      "Probiotic supplementation",
+      "Fecal microbiota transplant",
+      "Vagotomy"
+    ]
+  },
+  "citation_metrics": {
+    "total_citations": 14,
+    "primary_research_count": 14,
+    "primary_research_ratio": 1.0,
+    "primary_research_percentage": 100.0
+  },
+  "targets": {
+    "mechanism_recall": 0.75,
+    "intervention_ranking": 0.5,
+    "citation_count": 15,
+    "primary_research_ratio": 0.6
+  },
+  "passes": {
+    "mechanism_recall": false,
+    "intervention_ranking": "True",
+    "citation_count": false,
+    "primary_research_ratio": true
+  },
+  "overall_pass": "False"
+}

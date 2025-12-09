@@ -1,5 +1,11 @@
 # Task 2: Immunology - Executive Summary
 
+## 📊 **Kosmos Platform Report**
+**View the full interactive report on Edison Platform**:
+[https://platform.edisonscientific.com/trajectories/9e573c63-aa7d-4f79-adc3-501ffc4ba279](https://platform.edisonscientific.com/trajectories/9e573c63-aa7d-4f79-adc3-501ffc4ba279)
+
+---
+
 ## Task 2: Immunology - Execution Complete ✅
 
 ### Summary
@@ -8,6 +14,7 @@ Successfully executed Task 2 of the Kosmos pilot study, testing the PRECEDENT ca
 ### Key Results:
 - **Kosmos Query**: "Has anyone developed mRNA vaccines targeting solid tumor neoantigens using patient-specific mutation profiles, and what were the clinical trial outcomes?"
 - **Task ID**: 9e573c63-aa7d-4f79-adc3-501ffc4ba279
+- **Kosmos Platform Report**: [View Full Report on Edison Platform](https://platform.edisonscientific.com/trajectories/9e573c63-aa7d-4f79-adc3-501ffc4ba279)
 - **Status**: Successfully completed
 - **Duration**: ~15 minutes
 - **Cost**: $200

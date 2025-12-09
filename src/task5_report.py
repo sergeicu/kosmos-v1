@@ -157,10 +157,11 @@ def generate_report():
 | Citation count | ≥15 | {metrics.get('citation_metrics', {}).get('total_citations', 0)} | {'PASS' if passes.get('citation_count') else 'FAIL'} |
 | Primary research ratio | ≥60% | {metrics.get('citation_metrics', {}).get('primary_research_percentage', 0):.0f}% | {'PASS' if passes.get('primary_research_ratio') else 'FAIL'} |"""
 
+    pass_count = sum(1 for v in metrics.get('passes', {}).values() if str(v) == 'True')
     report += f"""
 
 ## Overall Assessment
-**{'PASS' if metrics.get('overall_pass') else 'FAIL'}**: based on {sum(metrics.get('passes', {}).values())}/4 metrics passing
+**{'PASS' if metrics.get('overall_pass') else 'FAIL'}**: based on {pass_count}/4 metrics passing
 
 ## Cross-Domain Synthesis Quality
 {assess_synthesis_quality(parsed, metrics)}

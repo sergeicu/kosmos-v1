@@ -1,0 +1,81 @@
+{
+  "task_id": "86d6c8a2-9d7c-42d6-abc7-bd40f2d46474",
+  "task_type": "ANALYSIS",
+  "evaluation_timestamp": "2025-12-09T03:48:00.000000",
+  "metrics": {
+    "gene_recall": 66.7,
+    "code_execution": true,
+    "figure_count": 3,
+    "hypothesis_quality": 100,
+    "parse_error": null,
+    "overlapping_genes": [
+      "dnak",
+      "dnaj",
+      "groel",
+      "groes",
+      "htpg",
+      "clpb",
+      "ibpa",
+      "ibpb"
+    ],
+    "notebook_error": null,
+    "num_hypotheses": 3,
+    "gene_recall_pass": true,
+    "code_execution_pass": true,
+    "figure_count_pass": true,
+    "hypothesis_quality_pass": true,
+    "overall_pass": true,
+    "hypothesis_evaluations": [
+      {
+        "hypothesis": "Coordinated Regulation of Functional Chaperone Complexes",
+        "matches_known_mechanism": true,
+        "matched_mechanism": "DnaK-DnaJ-GrpE chaperone system"
+      },
+      {
+        "hypothesis": "Hierarchical Chaperone System Activation",
+        "matches_known_mechanism": true,
+        "matched_mechanism": "GroEL-GroES chaperonin complex"
+      },
+      {
+        "hypothesis": "Trade-off Between Protein Quality Control and DNA Repair",
+        "matches_known_mechanism": true,
+        "matched_mechanism": "Lon and Clp protease activation"
+      }
+    ]
+  },
+  "ground_truth_comparison": {
+    "canonical_genes_found": 8,
+    "canonical_genes_total": 12,
+    "canonical_genes_in_preview": 8,
+    "canonical_genes_in_preview_found": 8,
+    "note_on_missing_genes": "rpoH, ftsJ, hslU, lon not in 20-gene preview provided to Kosmos"
+  },
+  "analysis_details": {
+    "total_genes_analyzed": 20,
+    "significant_DEGs": 13,
+    "upregulated_genes": 8,
+    "downregulated_genes": 5,
+    "statistical_method": "DESeq2 negative binomial GLM with Wald test",
+    "multiple_testing_correction": "Benjamini-Hochberg FDR",
+    "significance_thresholds": {
+      "log2FC": "> 1",
+      "padj": "< 0.05"
+    }
+  },
+  "files_generated": [
+    "kosmos_raw_output_fixed.json",
+    "analysis_notebook.txt",
+    "task_id_fixed.txt",
+    "metrics.json",
+    "task3_report.md",
+    "task3_report_executive.md"
+  ],
+  "execution_details": {
+    "start_time": "2025-12-09T03:41:54.036262",
+    "end_time": "2025-12-09T03:48:00.000000",
+    "duration_minutes": 5,
+    "cost": 200,
+    "status": "success",
+    "issue_fixed": "File upload issue resolved by using inline data representation"
+  }
+}

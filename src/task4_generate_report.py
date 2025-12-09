@@ -8,19 +8,19 @@ from datetime import datetime
 from pathlib import Path
 
 # Load all data
-with open("../input/task4_ground_truth.json", "r") as f:
+with open("input/task4_ground_truth.json", "r") as f:
     ground_truth = json.load(f)
 
-with open("../output/task4_results/task_id.json", "r") as f:
+with open("output/task4_results/task_id.json", "r") as f:
     task_info = json.load(f)
 
-with open("../output/task4_results/kosmos_raw_output.json", "r") as f:
+with open("output/task4_results/kosmos_raw_output.json", "r") as f:
     kosmos_results = json.load(f)
 
-with open("../output/task4_results/metrics.json", "r") as f:
+with open("output/task4_results/metrics.json", "r") as f:
     metrics = json.load(f)
 
-with open("../output/task4_results/parsed_molecules.json", "r") as f:
+with open("output/task4_results/parsed_molecules.json", "r") as f:
     molecules = json.load(f)
 
 baseline = ground_truth["nirmatrelvir"]
@@ -158,7 +158,7 @@ for mol in molecules:
         report += f"- Molecule {mol['molecule_number']}: Missing required ADMET predictions\n"
 
 # Save report
-report_file = Path("../output/task4_results/task4_report.md")
+report_file = Path("output/task4_results/task4_report.md")
 with open(report_file, "w") as f:
     f.write(report)
 

@@ -1,0 +1,25 @@
+{
+  "target_recall": 0.6,
+  "citation_count": 6,
+  "citation_validity": 1.0,
+  "key_paper_coverage": 0.0,
+  "targets_found": [
+    "MRTX1133",
+    "SOS1",
+    "SHP2"
+  ],
+  "targets_missed": [
+    "MRTX849",
+    "RM-018"
+  ],
+  "key_papers_found": [],
+  "resistance_mechanisms_found": [
+    "KRAS G12D/V bypass signaling",
+    "MEK reactivation",
+    "RTK-mediated escape",
+    "Adaptive metabolic rewiring"
+  ],
+  "total_doi_citations": 0,
+  "total_nct_citations": 12,
+  "evaluation_timestamp": "2025-12-09T03:54:05.790347"
+}
