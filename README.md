@@ -29,7 +29,7 @@ Through my own direct early direct testing of the Edison tools (via their UI int
 
 The execution patterns strongly resemble the Claude Code environment but with crucial advantage: built-in integrations with academic databases through MCP servers (arXiv, PubMed, Clinical Trials API, etc.).
 
-It makes sense that Edison offers a packaged solution that performs what Claude Code can do in a "ready meal" format - with integration services and optimized prompts. Regarding Kris' suggestion on GPT-5 comparison - I already feel that Edison is distinctly much more advanced and better for scientists like me. 
+It makes sense that Edison offers a packaged solution that performs what Claude Code can do in a "ready meal" format - with integration services and optimized prompts. Regarding Kris' suggestion on GPT-5 comparison - I already feel that Edison is distinctly much more advanced and better than GPT5 offers from the box, for scientists. 
 
 In professional terms (for a journal paper) - I think the better comparison would be between:
 1. Edison Scientific's tools 
