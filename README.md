@@ -438,9 +438,9 @@ This eval addresses critical risks before the mini 10-15 participant RCT:
 
 ## 9. Conclusion
 
-This eval demonstrates that rigorous evaluation of AI tools for scientific research is essential. For us to be able to CLEARLY evaluate performance we will need to define the eval metrics ahead of time and narrow them down succinctly. The initial hands-on experience with Edison showed impressive capabilities in medical AI research for me, but it was impossible to tell personally if it was good or bad (really i had no clue). This is why I decided to embark on the adventure of somehow verifying what this system is capable of. We need to clearly think how a scientist would think about this. 
+This eval demonstrates that rigorous evaluation of AI tools for scientific research is essential. For us to be able to CLEARLY evaluate performance we will need to define the eval metrics ahead of time and narrow them down succinctly. The initial hands-on experience with Edison showed impressive capabilities in medical AI research for me, but it was impossible to tell personally if it was good or bad (really i had no clue). This is why I decided to embark on the adventure of verifying what this system is capable of in a quantified and verifiable way. I think this is the most important task for us and for Edison/FH team altogether. 
 
-More broadly, I think edison ui tools need much improvement to be attractive to scientists. We would stuggle to recruit scientists at this moment. While GPT5 may be much less impressive, the familiarity with the tool will struggle to pull scientists from GPT5 and into EDison imho. 
+More broadly, I think edison UI tools need much improvement to be not just attractive but actually useful to scientists. We would stuggle to recruit scientists at this moment to use it for a long time as some key UI components are mediocre. While GPT5 may be much less impressive, the familiarity with the tool still is superior reason why most scientists would use it over Edison imho. 
 
 
 ---
