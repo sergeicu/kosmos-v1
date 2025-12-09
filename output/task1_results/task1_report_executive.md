@@ -1,19 +1,18 @@
 # Task 1: Cancer Genomics - Executive Summary
 
-## 📊 [View Kosmos Report on Platform](https://platform.edisonscientific.com/trajectories/561fb2fd-06c8-4a17-9ce8-9e4020f09aa0)
+## 📊 [View Edison Report on Platform](https://platform.edisonscientific.com/trajectories/561fb2fd-06c8-4a17-9ce8-9e4020f09aa0)
 
 ## Task 1: Cancer Genomics - Execution Complete ❌
 
 ### Summary
-Completed Task 1 of the Kosmos pilot study, testing the LITERATURE capability for synthesizing recent research on KRAS-mutant pancreatic cancer.
+Completed Task 1 of the Edison pilot study, testing the LITERATURE capability for synthesizing recent research on KRAS-mutant pancreatic cancer.
 
 ### Key Results:
-- **Kosmos Query**: "What are the most promising targetable dependencies in KRAS-mutant pancreatic cancer identified in the last 3 years, and what mechanisms underlie resistance to current targeted therapies?"
+- **Edison Query**: "What are the most promising targetable dependencies in KRAS-mutant pancreatic cancer identified in the last 3 years, and what mechanisms underlie resistance to current targeted therapies?"
 - **Task ID**: 561fb2fd-06c8-4a17-9ce8-9e4020f09aa0
-- **Kosmos Platform Link**: 🔗 [View Full Kosmos Report](https://platform.edisonscientific.com/trajectories/561fb2fd-06c8-4a17-9ce8-9e4020f09aa0)
+- **Edison Platform Link**: 🔗 [View Full Edison Report](https://platform.edisonscientific.com/trajectories/561fb2fd-06c8-4a17-9ce8-9e4020f09aa0)
 - **Status**: Successfully completed
 - **Duration**: ~57 minutes
-- **Cost**: $200
 
 ### Evaluation Metrics:
 - **Target Recall**: ❌ FAIL (60%) - Found 3/5 known targets (MRTX1133, SHP2, SOS1)
@@ -21,7 +20,7 @@ Completed Task 1 of the Kosmos pilot study, testing the LITERATURE capability fo
 - **Citation Validity**: ✅ PASS (100%) - All citations were valid (NCT trial IDs)
 - **Key Paper Coverage**: ❌ FAIL (0%) - Did not identify any of the 3 key ground truth papers
 
-### Key Findings from Kosmos:
+### Key Findings from Edison:
 1. **Identified Targets**:
    - ✅ MRTX1133 (KRAS G12D inhibitor)
    - ✅ SHP2 inhibitors (TNO155, RMC-4630)
@@ -39,7 +38,7 @@ Completed Task 1 of the Kosmos pilot study, testing the LITERATURE capability fo
    - NCT06625320 (RMC-6236 phase 3)
    - NCT07252232 (resected PDAC study)
 
-### What Kosmos Missed:
+### What Edison Missed:
 - **MRTX849** (adagrasib) - FDA-approved KRAS G12C inhibitor
 - **RM-018** - Emerging KRAS-targeting agent
 - **Key 2023 publications**:
@@ -55,10 +54,10 @@ Completed Task 1 of the Kosmos pilot study, testing the LITERATURE capability fo
 5. `/Users/ai/Documents/code/kosmos/output/task1_results/parsed_results.json` - Parsed results
 
 ### Overall Assessment: FAIL
-While Kosmos provided a comprehensive synthesis of KRAS-mutant pancreatic cancer research with excellent coverage of resistance mechanisms and valid clinical trial citations, it failed to meet the minimum thresholds for target recall (60% vs 75% target), citation count (6 vs 20 target), and key paper coverage (0% vs 66% target).
+While Edison provided a comprehensive synthesis of KRAS-mutant pancreatic cancer research with excellent coverage of resistance mechanisms and valid clinical trial citations, it failed to meet the minimum thresholds for target recall (60% vs 75% target), citation count (6 vs 20 target), and key paper coverage (0% vs 66% target).
 
 ### Technical Issues Identified:
-- **Citation Format**: Kosmos provided NCT trial IDs rather than DOI-formatted research papers
+- **Citation Format**: Edison provided NCT trial IDs rather than DOI-formatted research papers
 - **Ground Truth Mismatch**: Focus on clinical trials over foundational research papers
 - **Target Completeness**: Missed 2 clinically relevant KRAS inhibitors
 
