@@ -423,7 +423,7 @@ This eval addresses critical risks before the mini 10-15 participant RCT:
 - Critical need for validation and verification
 
 **Competitive Landscape:**
-- Edison vs. specialized tools (e.g., AlphaFold, ChemAxon)
+- Edison vs. specialized tools (e.g., AlphaFold, ChemAxon) or general coding tools (Codex CLI/Claude Code) 
 - Integration challenges across domains
 - Opportunity in workflow orchestration
 
