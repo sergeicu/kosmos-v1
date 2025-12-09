@@ -1,0 +1,14 @@
+2025-12-09T02:58:30.777052 [INFO] Generating simulated E. coli heat shock data
+2025-12-09T02:58:30.858479 [INFO] Generated test data: input/task3_ecoli_heatshock.csv (500 genes × 5 samples)
+2025-12-09T02:58:30.860417 [INFO] Creating ground truth evaluation file
+2025-12-09T02:58:30.864069 [INFO] Created ground truth file: input/task3_ground_truth.json
+2025-12-09T02:58:30.865005 [INFO] Submitting Kosmos ANALYSIS job
+2025-12-09T02:58:31.664898 [INFO] Task submitted successfully: ac0e19b3-cd73-4c45-bc28-eb63e106e2d2
+2025-12-09T02:58:31.666229 [INFO] ✓ Kosmos job submitted successfully
+2025-12-09T02:58:31.666517 [INFO] Starting task monitoring (this will take ~45 minutes)...
+2025-12-09T02:58:31.666720 [INFO] Monitoring task ac0e19b3-cd73-4c45-bc28-eb63e106e2d2 (timeout: 60 min)
+2025-12-09T02:58:33.675241 [INFO] Status: queued
+2025-12-09T02:59:04.359438 [INFO] Status: in progress
+2025-12-09T02:59:34.929098 [INFO] Status: fail
+2025-12-09T03:00:05.593088 [INFO] Status: fail
+2025-12-09T03:00:36.176636 [INFO] Status: fail

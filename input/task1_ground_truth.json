@@ -1,0 +1,20 @@
+{
+  "known_targets": [
+    "SHP2",
+    "SOS1",
+    "MRTX1133",
+    "MRTX849",
+    "RM-018"
+  ],
+  "known_resistance_mechanisms": [
+    "KRAS G12D/V bypass signaling",
+    "MEK reactivation",
+    "RTK-mediated escape",
+    "Adaptive metabolic rewiring"
+  ],
+  "key_papers": [
+    "10.1038/s41586-023-06747-5",
+    "10.1016/j.ccell.2023.01.003",
+    "10.1126/science.adg7943"
+  ]
+}

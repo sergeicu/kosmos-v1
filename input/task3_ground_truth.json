@@ -1,0 +1,28 @@
+{
+  "canonical_upregulated_genes": [
+    "dnaK",
+    "dnaJ",
+    "groEL",
+    "groES",
+    "htpG",
+    "clpB",
+    "ibpA",
+    "ibpB",
+    "rpoH",
+    "ftsJ",
+    "hslU",
+    "lon"
+  ],
+  "expected_pathways": [
+    "protein folding",
+    "chaperone-mediated protein folding",
+    "response to heat",
+    "proteolysis"
+  ],
+  "known_mechanisms": [
+    "sigma-32 (rpoH) regulon activation",
+    "DnaK-DnaJ-GrpE chaperone system",
+    "GroEL-GroES chaperonin complex",
+    "Lon and Clp protease activation"
+  ]
+}

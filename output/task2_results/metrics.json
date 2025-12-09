@@ -1,0 +1,15 @@
+{
+  "trial_recall": 0.0,
+  "enhanced_recall": 0.3333333333333333,
+  "precedent_accuracy": true,
+  "outcome_completeness": true,
+  "identified_ncts": [],
+  "product_names": [
+    "mRNA-4157",
+    "autogene cevumeran"
+  ],
+  "trial_names": [
+    "KEYNOTE-942"
+  ],
+  "timestamp": "2025-12-09T03:12:11.033393"
+}

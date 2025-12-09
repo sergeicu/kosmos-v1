@@ -1,0 +1,5 @@
+{
+  "task_id": "46d09be4-cbe6-4138-837e-54766594fd4a",
+  "submitted_at": "2025-12-09T03:02:29.947180",
+  "query": "Design three small molecule inhibitors for the SARS-CoV-2 main protease (Mpro, also called 3CLpro) with improved oral bioavailability compared to nirmatrelvir (Paxlovid). For each molecule:\n1. Provide the SMILES structure\n2. Calculate ADMET properties (solubility, permeability, oral bioavailability %, CYP metabolism)\n3. Predict drug-likeness (QED score, Lipinski's Rule compliance)\n4. Propose a retrosynthesis route from commercially available starting materials\n5. Estimate synthetic accessibility (SAScore)\n\nCompare each designed molecule's properties to nirmatrelvir baseline."
+}

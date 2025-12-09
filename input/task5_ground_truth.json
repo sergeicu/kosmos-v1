@@ -1,0 +1,64 @@
+{
+  "established_mechanisms": [
+    {
+      "name": "Alpha-synuclein propagation via vagus nerve",
+      "description": "Misfolded α-syn travels from enteric neurons to brain via vagal pathway",
+      "evidence_strength": "Strong (animal models + human epidemiology)",
+      "key_papers": ["10.1002/ana.24448", "10.1001/jamaneurol.2014.3865"]
+    },
+    {
+      "name": "LPS-induced neuroinflammation",
+      "description": "Bacterial LPS from gut triggers systemic inflammation, activates microglia",
+      "evidence_strength": "Moderate (animal models, correlational in humans)",
+      "key_papers": ["10.1038/s41586-020-03186-4", "10.1016/j.neuron.2020.01.033"]
+    },
+    {
+      "name": "Short-chain fatty acid (SCFA) depletion",
+      "description": "Reduced butyrate/propionate impairs BBB integrity and neuroprotection",
+      "evidence_strength": "Moderate (emerging)",
+      "key_papers": ["10.1038/s41531-020-00156-5"]
+    },
+    {
+      "name": "Gut-derived neurotransmitter alterations",
+      "description": "Dysbiosis reduces serotonin/dopamine precursors, affecting brain levels",
+      "evidence_strength": "Weak (mostly preclinical)",
+      "key_papers": ["10.1016/j.cell.2015.09.016"]
+    }
+  ],
+  "known_interventions": [
+    {
+      "intervention": "GLP-1 receptor agonists",
+      "mechanism": "Neuroprotection, anti-inflammation, may modulate microbiome",
+      "clinical_readiness": "High (Phase 3 trials ongoing for PD)",
+      "safety": "Well-established (approved for diabetes)",
+      "key_trials": ["NCT03659682"]
+    },
+    {
+      "intervention": "Probiotic supplementation",
+      "mechanism": "Restore beneficial bacteria, increase SCFAs, reduce inflammation",
+      "clinical_readiness": "Medium (small Phase 2 trials completed)",
+      "safety": "High (GRAS status)",
+      "key_trials": ["NCT03528421"]
+    },
+    {
+      "intervention": "Fecal microbiota transplant (FMT)",
+      "mechanism": "Restore healthy microbiome, reduce dysbiosis",
+      "clinical_readiness": "Low (preclinical + case reports only)",
+      "safety": "Medium (infection risk, regulatory hurdles)",
+      "key_trials": ["Preclinical only"]
+    },
+    {
+      "intervention": "Vagotomy (surgical)",
+      "mechanism": "Block α-syn propagation pathway",
+      "clinical_readiness": "Observational only (not interventional)",
+      "safety": "Low (surgical risks, irreversible)",
+      "key_trials": ["Epidemiological studies only"]
+    }
+  ],
+  "expected_ranking_order": [
+    "GLP-1 agonists",
+    "Probiotic supplementation",
+    "Fecal microbiota transplant",
+    "Vagotomy"
+  ]
+}

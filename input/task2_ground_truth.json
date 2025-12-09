@@ -1,0 +1,36 @@
+{
+  "precedent_exists": true,
+  "known_trials": [
+    {
+      "nct_id": "NCT02410733",
+      "name": "BNT111",
+      "sponsor": "BioNTech",
+      "indication": "Melanoma",
+      "approach": "Personalized neoantigen mRNA",
+      "status": "Completed",
+      "outcome": "Safe, induced immune responses"
+    },
+    {
+      "nct_id": "NCT03313778",
+      "name": "mRNA-4157",
+      "sponsor": "Moderna",
+      "indication": "Solid tumors",
+      "approach": "Personalized neoantigen mRNA (up to 34 neoantigens)",
+      "status": "Active",
+      "outcome": "Combined with pembrolizumab, reduced recurrence in melanoma"
+    },
+    {
+      "nct_id": "NCT03639714",
+      "name": "SLATE",
+      "sponsor": "Gritstone",
+      "indication": "NSCLC, other solid tumors",
+      "approach": "Shared + personalized neoantigens",
+      "status": "Completed",
+      "outcome": "Immune responses observed"
+    }
+  ],
+  "key_papers": [
+    "10.1038/s41586-021-03368-8",
+    "10.1038/s41586-022-05400-5"
+  ]
+}

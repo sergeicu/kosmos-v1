@@ -1,0 +1,19 @@
+2025-12-09T02:57:12.445539 [INFO] Starting Task 1: Cancer Genomics experiment
+2025-12-09T02:57:12.446254 [INFO] Ground truth saved to input/task1_ground_truth.json
+2025-12-09T02:57:12.446413 [INFO] Starting Kosmos LITERATURE query
+2025-12-09T02:57:12.446552 [INFO] Query: What are the most promising targetable dependencies in KRAS-mutant pancreatic cancer identified in the last 3 years, and what mechanisms underlie resistance to current targeted therapies?
+2025-12-09T02:57:13.403668 [INFO] Task submitted: 561fb2fd-06c8-4a17-9ce8-9e4020f09aa0
+2025-12-09T02:57:13.404318 [INFO] Monitoring task 561fb2fd-06c8-4a17-9ce8-9e4020f09aa0
+2025-12-09T02:57:13.785958 [INFO] Status: in progress
+2025-12-09T02:57:44.605504 [INFO] Status: in progress
+2025-12-09T02:58:15.877406 [INFO] Status: in progress
+2025-12-09T02:58:48.894246 [INFO] Status: in progress
+2025-12-09T02:59:19.756066 [INFO] Status: in progress
+2025-12-09T02:59:52.261872 [INFO] Status: in progress
+2025-12-09T03:00:29.133491 [INFO] Monitoring task 561fb2fd-06c8-4a17-9ce8-9e4020f09aa0
+2025-12-09T03:00:30.551648 [INFO] Status: in progress
+2025-12-09T03:01:02.020251 [INFO] Status: in progress
+2025-12-09T03:01:33.369289 [INFO] Status: in progress
+2025-12-09T03:02:04.789548 [INFO] Status: in progress
+2025-12-09T03:02:36.183034 [INFO] Status: in progress
+2025-12-09T03:03:07.681270 [INFO] Status: in progress

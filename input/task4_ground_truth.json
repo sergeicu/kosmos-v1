@@ -1,0 +1,28 @@
+{
+  "nirmatrelvir": {
+    "smiles": "CC1(C2C1C(N(C2)C(=O)C(C(C)(C)C)NC(=O)C(F)(F)F)C(=O)NC(CC3CCNC3=O)C#N)C",
+    "molecular_weight": 499.53,
+    "admet": {
+      "solubility_ugml": 135,
+      "caco2_permeability": 12.5,
+      "oral_bioavailability_pct": 50,
+      "cyp3a4_substrate": true,
+      "cyp3a4_inhibitor": true
+    },
+    "drug_likeness": {
+      "qed_score": 0.58,
+      "lipinski_violations": 1,
+      "rotatable_bonds": 5
+    },
+    "synthesis": {
+      "sascore": 4.2,
+      "total_steps": 12
+    }
+  },
+  "improvement_targets": {
+    "oral_bioavailability": ">50%",
+    "solubility": ">135 μg/mL",
+    "reduce_cyp3a4_inhibition": true,
+    "qed_score": ">0.58"
+  }
+}
