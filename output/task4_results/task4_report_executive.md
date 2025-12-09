@@ -2,22 +2,21 @@
 
 ## Task 4: Structural Biology - Execution Complete ✅
 
-### 📊 **View Live Kosmos Report**
+### 📊 **View Live Edison Report**
 [**https://platform.edisonscientific.com/trajectories/46d09be4-cbe6-4138-837e-54766594fd4a**](https://platform.edisonscientific.com/trajectories/46d09be4-cbe6-4138-837e-54766594fd4a)
 
-*Click the link above to view the complete Kosmos/Phoenix report with all molecular visualizations, analysis details, and generated images.*
+*Click the link above to view the complete Edison/Phoenix report with all molecular visualizations, analysis details, and generated images.*
 
 ---
 
 ### Summary
-Successfully executed Task 4 of the Kosmos pilot study, testing the MOLECULES capability for computational drug design of SARS-CoV-2 main protease inhibitors.
+Successfully executed Task 4 of the Edison pilot study, testing the MOLECULES capability for computational drug design of SARS-CoV-2 main protease inhibitors.
 
 ### Key Results:
-- **Kosmos Query**: "Design three small molecule inhibitors for the SARS-CoV-2 main protease (Mpro, also called 3CLpro) with improved oral bioavailability compared to nirmatrelvir (Paxlovid). For each molecule: Provide SMILES structure, Calculate ADMET properties, Predict drug-likeness, Propose retrosynthesis route, Estimate synthetic accessibility."
+- **Edison Query**: "Design three small molecule inhibitors for the SARS-CoV-2 main protease (Mpro, also called 3CLpro) with improved oral bioavailability compared to nirmatrelvir (Paxlovid). For each molecule: Provide SMILES structure, Calculate ADMET properties, Predict drug-likeness, Propose retrosynthesis route, Estimate synthetic accessibility."
 - **Task ID**: 46d09be4-cbe6-4138-837e-54766594fd4a
 - **Status**: Successfully completed
 - **Duration**: ~37 minutes
-- **Cost**: $200
 
 ### Evaluation Metrics:
 - **Chemical Validity**: ✅ PASS (100%) - All 3 molecules have valid SMILES
@@ -25,7 +24,7 @@ Successfully executed Task 4 of the Kosmos pilot study, testing the MOLECULES ca
 - **Property Improvement**: ✅ PASS (100%) - All 3 molecules show ≥1 improved property vs. nirmatrelvir
 - **Synthesis Provided**: ✅ PASS (100%) - All molecules include retrosynthesis routes
 
-### Key Findings from Kosmos:
+### Key Findings from Edison:
 1. **Molecule 1**: CC(=O)N[C@H](C(=O)N1C[C@H]2[C@@H]([C@H]1C(=O)N[C@H](C#N)C[C@@H]1CCNC1=O)C2(C)C)C(C)(C)C
    - Dramatically improved solubility: 185,768 μg/mL (vs 135 for nirmatrelvir)
    - Oral bioavailability: 46% (close to nirmatrelvir's 50%)
@@ -45,18 +44,18 @@ Successfully executed Task 4 of the Kosmos pilot study, testing the MOLECULES ca
    - SAScore: 4.53
 
 ### Files Generated:
-1. `/Users/ai/Documents/code/kosmos/output/task4_results/kosmos_raw_output.json` - Full Kosmos response
+1. `/Users/ai/Documents/code/kosmos/output/task4_results/kosmos_raw_output.json` - Full Edison response
 2. `/Users/ai/Documents/code/kosmos/output/task4_results/metrics.json` - Evaluation metrics
 3. `/Users/ai/Documents/code/kosmos/output/task4_results/task4_report.md` - Complete experiment report
 4. `/Users/ai/Documents/code/kosmos/output/task4_results/task4_analysis.md` - Detailed molecular analysis
 5. `/Users/ai/Documents/code/kosmos/input/task4_ground_truth.json` - Ground truth data
 
 ### Overall Assessment: PASS
-Kosmos MOLECULES capability successfully generated 3 chemically valid SARS-CoV-2 Mpro inhibitors with improved solubility profiles and comprehensive ADMET predictions. All success criteria were met, demonstrating effective computational drug design capabilities.
+Edison MOLECULES capability successfully generated 3 chemically valid SARS-CoV-2 Mpro inhibitors with improved solubility profiles and comprehensive ADMET predictions. All success criteria were met, demonstrating effective computational drug design capabilities.
 
 ### Issues Fixed:
 - Handled different API response format where result is in "answer" field instead of "result" field
-- Created custom parser to extract molecular properties from Kosmos text response
+- Created custom parser to extract molecular properties from Edison text response
 - Developed solubility conversion from logS to μg/mL for proper comparison
 
 The task has been completed successfully with all required artifacts generated and evaluated!
