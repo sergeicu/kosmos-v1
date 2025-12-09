@@ -1,6 +1,6 @@
 # Edison / Kosmos Pilot Test
 
-**Date:** December 9, 2025
+**Date:** Sunday December 7, 2025
 
 ---
 
