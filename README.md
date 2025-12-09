@@ -6,7 +6,7 @@
 
 ## Executive Summary
 
-Designed and executed a testing framework across five computational biology domains, with automated metrics for evaluating AI-generated content accuracy and utility.
+Designed and executed a testing framework across five computational biology domains, with automated metrics for evaluating Edison generated content accuracy and utility.
 
 **Current Status:** All 28 experiments completed, with the pilot study's 5 core experiments finished. Success rate: 22/28 successful, 5 failed, 1 pending when writing.
 
