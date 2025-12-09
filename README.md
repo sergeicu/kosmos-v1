@@ -80,9 +80,8 @@ These are NOT the skills that a classic software engineer or scientific research
 
 Being a scientist myself - still i want to verify if Edison works. For this - we design a verifiable experiment - 
 
-Here's the setup of my study from 9 Dec: I created a swarm of parallel agents that investigated baseline performance of Edison. I synthetically generated 5 tasks spanning different computational biology domains, each with known ground truth. My goal was to evaluate whether the system could effectively recover known answers and establish a baseline level of trust in its capabilities.
+Here's the setup i built - I created a swarm of parallel agents that investigated baseline performance of Edison. I synthetically generated 5 tasks spanning different computational biology domains, each with known ground truth. My goal was to evaluate whether the system could effectively recover known answers and establish a baseline level of trust in its capabilities. I.e. an attempt to establish a quantifiable evaluation framework. 
 
-This evaluation framework isn't just about testing a tool—it's about building trust through systematic verification, validating a potential paradigm shift in how scientific research is conducted.
 
 ---
 
