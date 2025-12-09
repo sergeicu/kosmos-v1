@@ -42,13 +42,13 @@ The real question from a technical perspective is: how well would a dry (non-opt
 
 Having tried the Edison tool, I find it quite good. UI is not perfect but I can see the beginning of what it wants to do. However, as someone with experience using Claude Code, I recognized the similarities immediately. This led to my next step: establish a swarm of parallel claude code agents to investigate the baseline performance of Edison.
 
-My approach was to synthetically generate 5 tasks that are relevant to our grant (in comp bio) for which we derive KNOWN ground truth. The goal was to evaluate whether Edison could effectively recover the answers from literature - for things that are reliably well known in general sense. This would serve as my baseline test. If it can pass this, then I know I can trust it more.
+My approach was to synthetically generate 5 tasks that are relevant to this RCT (in comp bio) for which we derive KNOWN ground truth. The goal was to evaluate whether Edison could effectively recover the answers from literature - for things that are reliably well known in general sense. This would serve as my baseline test. If it can pass this, then I know I can trust it more.
 
 ### 1.3. The Trust Factor: Learning from OpenEvidence
 
 This brings me to a crucial insight about trust. I remember using OpenEvidence extensively in its early days (another AI scientist tool focused on doctors, now the leading AI tool among physicians in the US - I and many others at Harvard Med love it!). Challgenge: in the early days of Open Evidence - I was verifying every result it gave me.
 
-This verification step is key with these tools. It's something to consider deeply in our RCT design - the human verification component and how trust builds over time with continued accurate performance.
+This verification step is key with these tools. It's something to consider deeply in the RCT design - the human verification component and how trust builds over time with continued accurate performance.
 
 
 **Personal Note:** I truly believe that the UI quality and experience is crucial for Edison's future success. While Claude Code may have superior coding capabilities, having an interface that's easier to understand and poke around in will be key to making the scientific journey easier. At the moment I can see where the UI is going, but it is far far from perfect. Looking at a tool like Weights & Biases, or Open Evidence - the UI is much more intuitive and well laid out. In short - if i was Sam Rodrigues - i would throw ALL my effort in getting the UI to be workable.Right now it is 50% there. 
